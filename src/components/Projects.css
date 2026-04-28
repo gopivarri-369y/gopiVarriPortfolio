@@ -1,0 +1,75 @@
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 30px;
+}
+
+.project-card {
+  padding: 35px;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  gap: 15px;
+}
+
+.project-title {
+  font-family: var(--font-heading);
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.project-links {
+  display: flex;
+  gap: 15px;
+}
+
+.project-links a {
+  color: var(--text-secondary);
+  transition: var(--transition);
+}
+
+.project-links a:hover {
+  color: var(--accent-cyan);
+  transform: translateY(-2px);
+}
+
+.project-tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 25px;
+}
+
+.tech-tag {
+  font-size: 0.8rem;
+  font-family: var(--font-heading);
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--text-primary);
+  padding: 4px 10px;
+  border-radius: 4px;
+}
+
+.project-description {
+  list-style-position: inside;
+  color: var(--text-secondary);
+  margin-top: auto;
+}
+
+.project-description li {
+  margin-bottom: 10px;
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+@media (max-width: 768px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+}
