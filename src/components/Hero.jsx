@@ -1,4 +1,5 @@
 import { FiGithub, FiLinkedin, FiMail } from 'react-icons/fi';
+import profileImg from '../assets/hero.jpg'; // Replace 'hero.png' with your actual photo filename
 import './Hero.css';
 
 const Hero = () => {
@@ -16,7 +17,7 @@ const Hero = () => {
           <p className="hero-description">
             Specializing in enterprise RESTful API design, microservices integration, and scalable backend architecture. Building seamless digital experiences.
           </p>
-          
+
           <div className="hero-actions">
             <a href="#projects" className="btn btn-primary">View Projects</a>
             <a href="#contact" className="btn btn-outline">Contact Me</a>
@@ -39,12 +40,19 @@ const Hero = () => {
           <div className="visual-circle circle-1"></div>
           <div className="visual-circle circle-2"></div>
           <div className="visual-circle circle-3"></div>
+
+          <div className="profile-image-container">
+            {/* The profileImg here points to src/assets/hero.png by default. 
+                You can drop your actual photo into src/assets and update the import at the top of this file. */}
+            <img src={profileImg} alt="Varri Gopi" className="profile-image" />
+          </div>
+
           <div className="glass-card visual-card">
             <div className="code-block">
-              <span className="code-keyword">const</span> <span className="code-variable">developer</span> = {'{'} <br/>
-              &nbsp;&nbsp;name: <span className="code-string">"Varri Gopi"</span>, <br/>
-              &nbsp;&nbsp;role: <span className="code-string">"Backend Engineer"</span>, <br/>
-              &nbsp;&nbsp;skills: [<span className="code-string">"Node.js"</span>, <span className="code-string">"MuleSoft"</span>] <br/>
+              <span className="code-keyword">const</span> <span className="code-variable">developer</span> = {'{'} <br />
+              &nbsp;&nbsp;name: <span className="code-string">"Varri Gopi"</span>, <br />
+              &nbsp;&nbsp;role: <span className="code-string">"Backend Engineer"</span>, <br />
+              &nbsp;&nbsp;skills: [<span className="code-string">"Node.js"</span>, <span className="code-string">"MuleSoft"</span>] <br />
               {'}'};
             </div>
           </div>
