@@ -30,9 +30,11 @@ const Education = () => {
             <h3 className="edu-category gradient-text">Certifications</h3>
             
             <ul className="modern-list">
-              <li>Salesforce Trailhead Badges</li>
-              <li>NPTEL Python</li>
-              <li>NPTEL Java</li>
+            <li>Salesforce Certified MuleSoft Developer (2025)</li>
+            <li>Salesforce Agentforce Specialist (2025)</li>
+            <li>Salesforce Trailhead Badges: Agent Blazer, Legend, Innovator (2025)</li>
+            <li>Java Masterclass, Udemy (2025)</li>
+            <li>Amazon ML Summer School, Amazon Web Services (2024)</li>
             </ul>
           </div>
 
@@ -43,7 +45,7 @@ const Education = () => {
             <ul className="modern-list">
               <li>1st Prize — T-Hub Hackathon</li>
               <li>Best IoT Project Award</li>
-              <li>Consistent Academic Excellence</li>
+              {/* <li>Consistent Academic Excellence</li> */}
             </ul>
           </div>
         </div>

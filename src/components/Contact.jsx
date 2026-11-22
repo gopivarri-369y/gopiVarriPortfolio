@@ -29,8 +29,8 @@ const Contact = () => {
             </div>
 
             <div className="contact-socials">
-              <a href="https://linkedin.com/in/varri-gopi" target="_blank" rel="noreferrer"><FiLinkedin size={24} /></a>
-              <a href="https://github.com/varri-gopi" target="_blank" rel="noreferrer"><FiGithub size={24} /></a>
+              <a href="https://www.linkedin.com/in/gopi-varri-760bb5259/" target="_blank" rel="noreferrer"><FiLinkedin size={24} /></a>
+              <a href="https://github.com/gopivarri-369y" target="_blank" rel="noreferrer"><FiGithub size={24} /></a>
             </div>
           </div>
 

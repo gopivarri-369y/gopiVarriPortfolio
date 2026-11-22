@@ -25,7 +25,20 @@ const projectsData = [
     ],
     github: "#",
     live: "#"
-  }
+  },
+  {
+  title: "Vidya Home Tuitions Platform",
+  year: "2026",
+  tech: ["Java", "Spring Boot", "PostgreSQL", "JWT", "REST APIs", "Swagger"],
+  description: [
+    "Engineered the core backend in Java and Spring Boot, supporting 3 workflows across student, tutor, and tuition-booking modules.",
+    "Designed a 23-table PostgreSQL schema for students, tutors, requirements, and booking schedules.",
+    "Implemented JWT-based authentication and role-based authorization across 4 user roles (Student, Parent, Tutor, Admin) to secure REST APIs.",
+    "Documented and exposed 64+ REST API endpoints using Swagger for seamless web and mobile frontend integration."
+  ],
+  github: "#",
+  live: "https://www.vidyahometuitions.com/"
+}
 ];
 
 const Projects = () => {

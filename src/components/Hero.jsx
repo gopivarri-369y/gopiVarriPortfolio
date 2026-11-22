@@ -1,5 +1,5 @@
 import { FiGithub, FiLinkedin, FiMail } from 'react-icons/fi';
-import profileImg from '../assets/hero.jpg'; // Replace 'hero.png' with your actual photo filename
+import profileImg from '../assets/Gopi_linkdin_profile.jpg'; // Replace 'hero.png' with your actual photo filename
 import './Hero.css';
 
 const Hero = () => {
@@ -24,10 +24,10 @@ const Hero = () => {
           </div>
 
           <div className="hero-social">
-            <a href="https://github.com/varri-gopi" target="_blank" rel="noreferrer" aria-label="GitHub">
+            <a href="https://github.com/gopivarri-369y" target="_blank" rel="noreferrer" aria-label="GitHub">
               <FiGithub size={22} />
             </a>
-            <a href="https://linkedin.com/in/varri-gopi" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+            <a href="https://www.linkedin.com/in/gopi-varri-760bb5259/" target="_blank" rel="noreferrer" aria-label="LinkedIn">
               <FiLinkedin size={22} />
             </a>
             <a href="mailto:gopivarri1@gmail.com" aria-label="Email">
